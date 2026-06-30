@@ -94,8 +94,8 @@ class _BlocaNotasState extends State<BlocaNotas> {
         centerTitle: true,
         actions: [
           IconButton(
-            icon: const Icon(Icons.search, color: Colors.black54, size: 22),
-            onPressed: () {},
+            icon: const Icon(Icons.close, color: Colors.black54, size: 24),
+            onPressed: () => Navigator.pop(context),
           ),
         ],
       ),
