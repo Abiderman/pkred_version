@@ -114,7 +114,7 @@ class _GraficosScreenState extends State<GraficosScreen> {
       backgroundColor: Colors.white,
       elevation: 0,
       leading: IconButton(
-        icon: const Icon(Icons.menu, color: _orange, size: 28),
+        icon: const Icon(Icons.arrow_back_ios_new, color: _orange, size: 22),
         onPressed: () => Navigator.pop(context),
       ),
       title: const Text(

@@ -182,6 +182,12 @@ class _AtualizarPerfilScreenState extends State<AtualizarPerfilScreen> {
           ),
         ),
         centerTitle: true,
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.close, color: Colors.black54, size: 24),
+            onPressed: () => Navigator.pop(context),
+          ),
+        ],
       ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.fromLTRB(24, 24, 24, 40),

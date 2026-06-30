@@ -47,6 +47,12 @@ class _RelatoriosScreenState extends State<RelatoriosScreen> {
           ),
         ),
         centerTitle: true,
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.close, color: Colors.black54, size: 24),
+            onPressed: () => Navigator.pop(context),
+          ),
+        ],
       ),
       body: Stack(
         children: [

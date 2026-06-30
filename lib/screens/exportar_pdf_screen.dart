@@ -129,6 +129,12 @@ class _ExportarPdfScreenState extends State<ExportarPdfScreen> {
               color: Colors.black87, fontWeight: FontWeight.bold, fontSize: 18),
         ),
         centerTitle: true,
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.close, color: Colors.black54, size: 24),
+            onPressed: () => Navigator.pop(context),
+          ),
+        ],
       ),
       body: Padding(
         padding: const EdgeInsets.fromLTRB(20, 28, 20, 32),
