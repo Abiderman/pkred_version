@@ -229,6 +229,16 @@ class _TaxasScreenState extends State<TaxasScreen>
         title: const Text('Taxas e Vendedores'),
         backgroundColor: _primary,
         foregroundColor: Colors.white,
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back_ios_new, size: 22),
+          onPressed: () => Navigator.pop(context),
+        ),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.close, size: 24),
+            onPressed: () => Navigator.pop(context),
+          ),
+        ],
         bottom: TabBar(
           controller: _tabController,
           indicatorColor: Colors.white,
