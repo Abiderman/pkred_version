@@ -21,7 +21,6 @@ class _BlocaNotasState extends State<BlocaNotas> {
   @override
   void initState() {
     super.initState();
-    SessionService.saveLastScreen('notas');
     _carregarNotas();
   }
 

@@ -3,7 +3,6 @@ import 'login_screen.dart';
 import 'dashboard_screen.dart';
 import 'graficos_screen.dart';
 import 'vendedores_screen.dart';
-import 'bloco_notas.dart';
 import '../services/session_service.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -46,7 +45,6 @@ class _SplashScreenState extends State<SplashScreen> {
     switch (screen) {
       case 'graficos':   return const GraficosScreen();
       case 'vendedores': return const VendedoresScreen();
-      case 'notas':      return const BlocaNotas();
       default:           return const DashboardScreen();
     }
   }
