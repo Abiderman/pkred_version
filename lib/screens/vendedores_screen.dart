@@ -114,8 +114,8 @@ class _VendedoresScreenState extends State<VendedoresScreen> {
       backgroundColor: Colors.white,
       elevation: 0,
       leading: IconButton(
-        icon: const Icon(Icons.menu, color: _orange, size: 28),
-        onPressed: () {},
+        icon: const Icon(Icons.arrow_back_ios_new, color: _orange, size: 22),
+        onPressed: () => Navigator.pop(context),
       ),
       title: const Text(
         'Pkred',
@@ -124,8 +124,8 @@ class _VendedoresScreenState extends State<VendedoresScreen> {
       centerTitle: true,
       actions: [
         IconButton(
-          icon: const Icon(Icons.more_vert, color: Colors.black87),
-          onPressed: () {},
+          icon: const Icon(Icons.close, color: Colors.black54, size: 24),
+          onPressed: () => Navigator.pop(context),
         ),
       ],
     );
